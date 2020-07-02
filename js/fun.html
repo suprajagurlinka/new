@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function msg() {
+			// body...
+			alert("Good Morning");
+		}
+		function mul(a,b) {
+			// body...
+			c=a*b;
+			document.write(c);
+		}
+		function eoo() {
+			a=document.getElementById("name").value;
+			if(a%2==0){
+				document.writeln("even number");
+			}
+			else{
+				document.writeln("odd");
+			}
+			// body...
+		}
+		var a=20;
+		var b=20;
+		var c=30;
+		if(a>b && a>c){
+			document.write(+a);
+		}
+		
+		else if (b>c) {
+			document.write(+b);
+		}
+		else{
+			document.write(+c);
+		}
+	</script>
+</head>
+<body>
+<input type="button" onclick="msg()" value="alert"name="">
+<input type="button" onclick="mul(2,5)" value="submit" name="">
+<input type="number" id="name" name="">
+<button id="btn" onclick="eoo()">even_or_odd</button>
+</body>
+</html>
