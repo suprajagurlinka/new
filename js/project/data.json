@@ -1,0 +1,47 @@
+{
+	"details":{
+		
+		"name":"supraja",
+		"email":"supraja@gmail.com",
+		
+		"number":"33333",
+		"address":"Amalapuram"
+
+	},
+	"careerobjective":{
+		"info":"To become software developer"
+
+	},
+	"educationalqualification":[
+		{
+			"institute":"sai aditya institute of science & tech",
+			"degree":"B.tech",
+			"passoutyear":"2020",
+			"percentile":"75%"
+		},
+		{
+			"institute":"sai aditya institute of science & tech",
+			"degree":"inter",
+			"passoutyear":"2018",
+			"percentile":"75%"
+		},
+		{
+			"institute":"sai aditya institute of science & tech",
+			"degree":"10th",
+			"passoutyear":"2016",
+			"percentile":"75%"
+		}
+	],
+	"technicalskills":[{
+		"title":"Programming language",
+		"info":["c,c++,java"]
+	},
+{
+"title":"Databases",
+"info":["oacle,sql"]
+},
+{
+	"title":"operating system",
+	"info":["windows,linux"]
+}]
+}

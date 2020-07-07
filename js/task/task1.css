@@ -1,0 +1,166 @@
+.parent{
+	display:flex;
+	border-radius: 25px;
+	border: 2px solid #000;
+
+	height: 730px;
+}
+.first{
+	
+	width: 415px;
+	
+	
+	
+	height: 730px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers{
+	border-collapse: collapse;
+	width: 100%;
+}
+#customers tr:hover {background-color: #ddd;}
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.second{
+	
+	
+	width: 100%;
+	border-left: 2px solid #000;
+	
+	height: 730px;
+}
+.one{
+	margin: 5px;
+	width: 370px;
+	
+	padding: 10px;
+	height: 280px;
+	text-align: center;
+}
+.two{
+	margin: 5px;
+	width: 370px;
+	
+	padding: 10px;
+	height: 200px;
+}
+.three{
+	margin: 5px;
+	width: 370px;
+	
+	padding: 10px;
+	height: 200px;
+}
+.twoone{
+	
+	padding: 10px;
+	height: 80px;
+}
+.twotwo{
+	
+	padding: 10px;
+	height: 200px;
+
+}
+
+.twothree{
+	
+	
+	
+	padding: 10px;
+	height: 200px;
+
+}
+.twofour{
+	
+	
+	
+	padding: 10px;
+	height: 80px;
+}
+.space{
+	padding-bottom: 9px;
+}
+.img{
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	border-radius: 50%;
+}
+@media screen and (max-width: 425px){
+	.parent,.second{
+		flex-direction: column;
+		justify-content: space-between;
+		border: 1px solid white;
+		width: auto;
+		font-size: 13px;
+
+	}
+	.twotwo{
+		height:1px;
+		
+		font-size: 13px;
+}
+
+	.first{
+		padding-bottom: 0px;
+		height: 500px;
+		width: auto;
+	}
+	.one{
+		height:130px;
+	}
+	.two{
+		height: 110px;
+	}
+	.three{
+		height: 100px;
+	}
+	.img{
+		height:50px;
+		width: 50px;
+	}
+	.twoone{
+		height: 100px;
+	}
+	.twotwo{
+		height: 300px;
+	}
+	.twothree{
+		height: 250px;
+	}
+	.twofour{
+		height: 200px;
+	}
+}
+/*for tablet*/
+@media screen and (min-width: 426px) and (max-width:768px){
+.parent,.second{
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid white;
+	
+	font-size: 13px;
+}
+.first{
+	width: auto;
+}
+.twotwo{
+		height:200px;
+		padding: 1px;
+		font-size: 10px;
+	}
+	.twothree{
+		height: 200px;
+	}
+	
+}

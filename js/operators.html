@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var a=10;
+	document.write(a);
+
+	document.write(a++);
+	document.write(a--);
+	for(i=1;i<=10;i++){
+document.write(i+"<br/>")
+	}
+	i=10;
+	while(i>=1){
+		document.write(i+"<br/>");
+		i--;
+	}
+	j=0;
+	do{
+		document.write(j);
+		j++;
+	}while(j<10);
+	var object={a:1,b:2,c:3};
+	for(var i in object){
+		document.write(i+":"+object[i]+"<br/>")
+	}
+	a=1;
+	switch(a){
+		case 1:
+		alert("case1");
+		break;
+		case 2:
+		alert("case2");
+		break;
+		case 3:
+		alert("case3");
+		break;
+		default:
+		alert("default");
+	}
+
+</script>
+</body>
+</html>

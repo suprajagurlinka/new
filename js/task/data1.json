@@ -1,0 +1,47 @@
+{
+	"details":{
+		
+		"name":"Supraja_Gurlinka",
+		"email":"suprajagurlinka5725@gmail.com",
+		
+		"number":"63***0***6",
+		"address":"East Godavari,Amalapuram"
+
+	},
+	"careerobjective":{
+		"info":"A highly dedicated and hard-working individual looking for a responsible position to gain practical experience."
+
+	},
+	"educationalqualification":[
+		{
+			"institute":"Shri Vishnu Engineering College For Women",
+			"degree":"B.tech",
+			"passoutyear":"2022",
+			"percentile":"85%"
+		},
+		{
+			"institute":"Sri Chaitanya Junior Mahila Kalasala",
+			"degree":"inter",
+			"passoutyear":"2018",
+			"percentile":"97.6%"
+		},
+		{
+			"institute":"Sri Chaitanya Highschools",
+			"degree":"10th",
+			"passoutyear":"2016",
+			"percentile":"10/10"
+		}
+	],
+	"technicalskills":[{
+		"title":"Programming languages",
+		"info":["c,c++,python,html,css,bootstrap"]
+	},
+{
+"title":"Databases",
+"info":["oacle,sql"]
+},
+{
+	"title":"operating system",
+	"info":["windows,linux"]
+}]
+}
