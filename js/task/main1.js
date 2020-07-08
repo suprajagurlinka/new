@@ -43,7 +43,7 @@ skills(data1.technicalskills);
  var child1=document.querySelector(".child1");
  function basic(det) {
  	var image=document.createElement("img");
- 	image.src="profile.jpg";
+ 	image.src="profile1.JPG";
  	child1.appendChild(image);
 
  	var name=document.createElement("h4");
