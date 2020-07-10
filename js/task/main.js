@@ -28,7 +28,7 @@ function basic1(det){
 
  
  var number = document.createElement("h4");
-number.textContent="Phone no : " + det.number;
+number.textContent="Roll no : " + det.number;
  child1.appendChild(number);
  //document.body.innerHTML = "<button >Today's date is</button>"
 
