@@ -89,6 +89,7 @@ child1.appendChild(document.createElement("hr"));
  	 child2.appendChild(table1);
 
  	 tabledata="";
+ 	 
  	 for(i=0;i<edu.length;i++){
  	 	tabledata+="<tr><td>"+edu[i].institute+"</td><td>"+edu[i].degree+"</td><td>"+edu[i].passoutyear+"</td><td>"+edu[i].percentile+"</td></tr>";
  	 }
