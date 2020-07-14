@@ -72,7 +72,7 @@ child1.appendChild(document.createElement("hr"));
  var child2=document.querySelector(".child2");
  function careerinfo(info1){
  	var heading=document.createElement("h2");
- 	heading.textContent="careerobjective";
+ 	heading.textContent="Careerobjective";
  	child2.appendChild(heading);
  	child2.appendChild(document.createElement("hr"));
  	var p=document.createElement("p");
@@ -81,17 +81,17 @@ child1.appendChild(document.createElement("hr"));
  }
  function education(edu){
  	var heading1=document.createElement("h2");
- 	heading1.textContent="educatational Qualification";
+ 	heading1.textContent="Educatational Qualification";
  	child2.appendChild(heading1);
  	child2.appendChild(document.createElement("hr"));
  	 var table1=document.createElement("table");
- 	 table1.border="1";
- 	 child2.appendChild(table1);
-
- 	 tabledata="";
  	 
+
+ 	 child2.appendChild(table1);
+ 	 tabledata="";
+ 	 tabledata+="<tr><th>Course</th><th>Institute</th><th>Passoutyear</th><th>Percentile</th></tr>";
  	 for(i=0;i<edu.length;i++){
- 	 	tabledata+="<tr><td>"+edu[i].institute+"</td><td>"+edu[i].degree+"</td><td>"+edu[i].passoutyear+"</td><td>"+edu[i].percentile+"</td></tr>";
+ 	 	tabledata+="<tr><td>"+edu[i].degree+"</td><td>"+edu[i].institute+"</td><td>"+edu[i].passoutyear+"</td><td>"+edu[i].percentile+"</td></tr>";
  	 }
  	 table1.innerHTML=tabledata;
  }
@@ -103,6 +103,7 @@ child1.appendChild(document.createElement("hr"));
  	child2.appendChild(document.createElement("hr"));
  	for(i=0;i<skillinfo.length;i++){
  		var title=document.createElement("h4");
+
  		title.textContent=skillinfo[i].title;
  		child2.appendChild(title);
 

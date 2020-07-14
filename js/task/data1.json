@@ -15,26 +15,26 @@
 	"educationalqualification":[
 		{
 			"institute":"Shri Vishnu Engineering College For Women",
-			"degree":"B.tech",
-			"passoutyear":"2022",
+			"degree":"B.tech(IT)",
+			"passoutyear":"2018-2022",
 			"percentile":"85%"
 		},
 		{
 			"institute":"Sri Chaitanya Junior Mahila Kalasala",
-			"degree":"inter",
-			"passoutyear":"2018",
+			"degree":"Intermdiate",
+			"passoutyear":"2016-2018",
 			"percentile":"97.6%"
 		},
 		{
 			"institute":"Sri Chaitanya Highschools",
-			"degree":"10th",
+			"degree":"SSC",
 			"passoutyear":"2016",
 			"percentile":"10/10"
 		}
 	],
 	"technicalskills":[{
 		"title":"Programming languages",
-		"info":["c,c++,python,html,css,bootstrap"]
+		"info":["c,python,html,css,bootstrap"]
 	},
 {
 "title":"Databases",
